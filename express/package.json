@@ -1,0 +1,17 @@
+{
+    "name": "express",
+    "version": "1.0.0",
+    "description": "Demonstration of Express Server.",
+    "main": "",
+    "scripts": {
+        "test": "exit 1"
+    },
+    "author": "Kartik Mehta",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "ejs": "^3.1.8",
+        "express": "^4.18.1",
+        "joi": "^17.6.0"
+    }
+}

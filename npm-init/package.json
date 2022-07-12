@@ -1,0 +1,14 @@
+{
+    "name": "npm-init",
+    "version": "1.0.0",
+    "description": "Create our package.json using 'npm init' demonstration.",
+    "main": "index.js",
+    "scripts": {
+        "test": "exit 1"
+    },
+    "author": "Kartik Mehta",
+    "license": "MIT",
+    "dependencies": {
+        "lodash": "^4.17.21"
+    }
+}

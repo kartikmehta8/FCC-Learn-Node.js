@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Test Page</title>
+        <link rel="stylesheet" type="text/css" href="/public/css/index.css" />
+    </head>
+    <body>
+        <!-- EJS Way of Displaying Dynamic Data -->
+        <h1>Hello <% data.userQuery %></h1>
+        <ul>
+            <li>Kartik</li>
+            <li>Mehta</li>
+            <li>John</li>
+            <li>Doe</li>
+            <% for (result of data.searchResults) { %>
+            <!-- If there is = sign, it means it will be displayed in webpage. -->
+            <li><%= result %></li>
+            <% }; %>
+        </ul>
+
+        <% if (data.loggedIn) { %>
+        <h2>Logged In as <%= data.userName %></h2>
+        <% } else { %>
+        <h2>Not Logged In</h2>
+        <% } %>
+    </body>
+</html>
